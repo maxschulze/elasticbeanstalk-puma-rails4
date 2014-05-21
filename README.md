@@ -16,3 +16,12 @@ __002bundle_pack.config__ - *magic*. Packing all gems to vendor/cache to make su
 __02nginx.config__ - nginx config to allow uploads of max. 4GB
 
 __04rubylibs.config__ - fix RUBYLIB path
+
+EB ENV
+------
+
+For scripting I found it helpful to see the actual envvars provided by AWS EB:
+
+https://gist.github.com/jufemaiz/bc7aed8acb445219f1d3
+
+Thanks @jufemaiz for posting it.
